@@ -53,8 +53,8 @@ def display_board():
 # Handle a turn for an arbitrary player
 def handle_turn(player):
     # Get position from player
-    print("[ " + player + "'s turn. ]")
-    position = input("Choose from 1-9: ")
+    print("Turn   : " + player)
+    position = input("Choose : ")
 
     # Whatever the user inputs, make sure it is a valid input, and the spot is open
     valid = False
